@@ -45,7 +45,7 @@ const Home: NextPage = () => {
         crossOrigin="anonymous"
       />
 
-      {load ? <Loader /> : <PageLayout />}\
+      {load ? <Loader /> : <PageLayout />}
     </div>
   );
 };
