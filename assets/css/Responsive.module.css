@@ -1,0 +1,290 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1170px) {
+	.left_clear{
+		padding-left: calc((100% - 1170px) / 2 + 15px);
+	}
+	
+}
+
+@media (min-width: 992px) and (max-width: 1169.98px) { 
+	.left_clear{
+		padding-left: calc((100% - 960px) / 2 + 15px);
+	}
+	.hero_content h1 {
+	    font-size: 40px;
+	}
+	.hero_content p {
+	    font-size: 17px;
+	    padding-top: 15px;
+	    max-width: 444px;
+	}
+	.hero_content .button {
+	    margin-top: 25px;
+	}
+	.hero_shape {
+	    bottom: -50px;
+	}
+	.title {
+	    font-size: 30px;
+	}
+	.product_shape1 {
+	    top: -117px;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.show {
+		position: absolute;
+		z-index: 1000;
+	}
+	.nav-link {
+		text-decoration: none!important;
+	}
+	header {
+	    padding: 20px 0;
+	}
+	#menu{
+		display: none;
+	}
+	.hamburger-menu {
+		display: block;
+	}
+	.ofcavas-menu {
+		display: block;
+	}
+	.mobile_menu_icon {
+	    display: flex;
+	    align-items: center;
+	    justify-content: flex-end;
+	    margin-right: 50px;
+	}
+	.mobile_menu_icon li{
+		margin-right: 10px;
+	}
+	.mobile_menu_icon li:last-child{
+		margin-right: 0;
+	}
+	.left_clear{
+		padding-left: calc((100% - 720px) / 2 + 15px);
+	}
+	.hero_img {
+		padding-top: 50px;
+		position: relative;
+	}
+	.hero_shape {
+	    bottom: -15px;
+	}
+	.about_img {
+	    padding-left: 0px;
+	    text-align: center;
+	    padding-top: 95px;
+	}
+	.product_shape1 {
+	    top: -92px;
+	}
+	.about_wrapper {
+	    padding-bottom: 30px;
+	}
+	.product_wrapper .row [class*=col], 
+	.team_wrapper .row [class*=col] {
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+	.team_shape {
+	    top: -88px;
+	}
+	.product_wrapper {
+	    padding-bottom: 135px;
+	}
+	.footer_content{
+		text-align: center;
+	}
+
+	.footer_content > a {
+		display: flex;
+		justify-content: center;
+	}
+	.footer_content p {
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.footer_social {
+	    justify-content: center;
+	}
+	.footer_list_wrapper{
+		text-align: center;
+	}
+	.footer_wrapper {
+	    padding: 70px 0 75px;
+	}
+
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767.98px) {
+	.img {
+		margin-left: 0;
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	.left_clear{
+		padding-left: calc((100% - 540px) / 2 + 15px);
+	}
+	.hero_shape {
+	    bottom: -4px;
+	}
+	.hero_wrapper {
+	    padding-bottom: 41px;
+	    padding-top: 50px;
+	}
+	.hero_content h1 {
+	    font-size: 44px;
+	}
+	.about_wrapper {
+	    padding-top: 70px;
+	}
+	.product_shape1 {
+	    top: -68px;
+	}
+	.product_wrapper {
+	    padding-top: 70px;
+	    margin-top: 80px;
+	}
+	.product_content p {
+	    font-size: 14px;
+	}
+	.team_shape {
+	    top: -69px;
+	}
+	.team_heading {
+	    padding-top: 70px;
+	}
+	.subscribe_content_wrapper p {
+	    font-size: 16px;
+	    padding-top: 15px;
+	    max-width: 368px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.subscribe_input_box input {
+	    width: 440px;
+	}
+	.input_btn {
+	    margin-right: 33px;
+	}
+	.subscribe_content_wrapper {
+	    padding: 40px 0;
+	}
+	.subscribe_input_box .button{
+		box-shadow: none !important;
+	}
+	.subscribe_input_box {
+	    margin-top: 30px;
+	}
+	.subscribe_wrapper {
+	    padding-bottom: 0px;
+	    padding-top: 90px;
+	}
+	
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575.98px) {
+	.hero_content h1 {
+	    font-size: 31px;
+	}
+	.left_clear{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.hero_content p {
+	    font-size: 16px;
+	}
+	.hero_img {
+		padding-left: 15px;
+	}
+	.hero_img_col{
+		padding-left: 15px;
+	}
+	.title {
+	    font-size: 26px;
+	}
+	.product_shape1 {
+	    top: -46px;
+	}
+	.team_shape {
+	    top: -46px;
+	}
+	.team_img img{
+		width: 100%;
+	}
+	.subscribe_content_wrapper h2 {
+	    font-size: 23px;
+	}
+	.subscribe_input_box input {
+	    height: 52px;
+	    padding: 15px 135px 15px 21px;
+	    width: 309px;
+	}
+	.input_btn {
+	    margin-right: 23px;
+	    margin-top: -47px;
+	}
+	.subscribe_input_box .button {
+	    padding: 11px 20px;
+	    font-size: 15px;
+	}
+	.subscribe_wrapper {
+	    padding-top: 70px;
+	}
+	
+}
+
+@media screen and (max-width: 580px) {
+	.input_btn {
+	    margin-right: 100px;
+	}
+}
+
+@media screen and (max-width: 578px) {
+	.input_btn {
+	    margin-right: 100px;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.input_btn {
+	    margin-right: 80px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.input_btn {
+	    margin-right: 50px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.input_btn {
+	    margin-right: 25px;
+	}
+	.subscribe_input_box input::placeholder {
+	    font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.input_btn {
+	    margin-right: 25px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.input_btn {
+	    margin-right: 20px;
+	}
+}
